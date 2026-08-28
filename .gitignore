@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local model and application caches
+*.pt
+.ultralytics/
+.matplotlib/
+runs/
+
+# Local videos and generated results
+video/input/*
+!video/input/.gitkeep
+video/output/*
+!video/output/.gitkeep
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
